@@ -1,0 +1,50 @@
+<div class="container">
+
+  <div class="row d-flex justify-content-around">
+
+      <div class="col-md-4 mt-4">
+        &nbsp;
+      </div>
+
+      <div class="col-md-4 mt-4">
+       
+        <div class="card">
+          <div class="card-header">
+            <h4>Login</h4>
+          </div>
+          <div class="card-body">
+            
+            <form [formGroup]="loginForm">
+
+              <div class="mb-3">
+                <label for="username" class="form-label">User Name</label>
+                <input formControlName="id" type="text" class="form-control" id="username">
+              </div>
+
+              <div class="mb-3">
+                <label for="password" class="form-label">Password</label>
+                <input formControlName="password" type="password" class="form-control" id="password">
+              </div>
+              
+              <button type="button" class="btn btn-primary btn-sm me-2">Login</button>
+              
+              <a [routerLink]="['/register']" class="btn btn-outline-primary btn-sm">New User?</a>
+            </form>
+
+
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 mt-4">
+        &nbsp;
+      </div>
+
+  </div>
+
+
+
+</div>
+
+
+

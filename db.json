@@ -1,0 +1,13 @@
+{
+  "user": [
+    {
+      "id": "nat",
+      "name": "nathaniel",
+      "email": "test@test.com",
+      "password": "ghana",
+      "gender": "male",
+      "role": "",
+      "isActive": true
+    }
+  ]
+}
